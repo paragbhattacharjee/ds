@@ -1,0 +1,34 @@
+Big O:
+
+	f(n) = O(g(n));
+	There has to be a constant C, for which
+	f(n) <= C * g(n)
+	
+Omega 
+	
+	f(n) = Omega(g(n));
+	There has to be a constant C, for which
+	f(n) >= C * g(n)
+	
+Theta
+	f(n) = theta(g(n));
+	There has to be two constants C1 and C2. for which
+	f(n) >= C1 * g(n) and f(n) <= C2 * g(n)
+	
+Different types of function performances
+
+1) Constant Functions: f(n) = 1
+
+2) logarithmic functions: f(n) = log(n)
+
+3) Linear Functions: f(n) = n
+
+4) Super linear functions: f(n) = nlog(n)
+
+5) Quadratic functions: f(n) = n(2)
+
+5) Cubic functions: f(n) = n(3)
+
+6) Exponential functions: f(n) = 2(n)
+
+7) Factorial functions: f(n) = n!
